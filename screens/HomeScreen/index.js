@@ -1,16 +1,16 @@
 import React from "react";
 import { View, StyleSheet } from "react-native";
 
-import RootComponent from "../components/RootComponent";
-import BodyBold from "../components/UI/BodyBold";
-
+import HeaderComponent from "../../components/HeaderComponent";
+import BannerSlider from "../../components/BannerSilder";
+import CategorySlider from "../../components/CategorySlider";
 const HomeScreen = (props) => {
   return (
-    <RootComponent>
-      <View style={styles.screen}>
-        <BodyBold>Home Screen</BodyBold>
-      </View>
-    </RootComponent>
+    <View>
+      <HeaderComponent />
+      <CategorySlider />
+      <BannerSlider />
+    </View>
   );
 };
 

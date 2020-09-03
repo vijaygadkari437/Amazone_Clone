@@ -86,7 +86,7 @@ const styles = StyleSheet.create({
   },
   SearchText: {
     color: "#868686",
-    fontWeight: 500,
+    fontWeight: "bold",
     fontSize: 17,
     marginLeft: 10,
     marginBottom: 3,
@@ -110,60 +110,12 @@ const styles = StyleSheet.create({
     zIndex: 2,
     marginLeft: 5,
   },
-  Category: {
-    display: "flex",
-    flexDirection: "row",
-    justifyContent: "space-evenly",
-    backgroundColor: "#fff",
-    paddingTop: 10,
-    paddingBottom: 10,
-    borderColor: "#d3dcdb",
-    borderBottomWidth: 5,
-    borderTopWidth: 5,
-  },
-  CategoryItem: {
-    alignItems: "center",
-  },
-  CategoryFig: {
-    backgroundColor: "#c9eaef",
-    borderRadius: "50%",
-    padding: 10,
-    height: 60,
-    width: 60,
-  },
-  CategoryImg: {
-    height: 40,
-    width: 40,
-    zIndex: 2,
-  },
-  BackColorGreen: {
-    backgroundColor: "#edf7d5",
-  },
-  BackColorPink: {
-    backgroundColor: "#ffe1df",
-  },
-  BackColorYellow: {
-    backgroundColor: "#f9edb3",
-  },
-  CategoryText: {
-    textAlign: "center",
-    zIndex: 2,
-    backgroundColor: "#fff",
-    fontSize: 12,
-  },
-  BannerBox: {
-    borderBottomWidth: 10,
-    borderBottomColor: "#d3dcdb",
-  },
-  BannerImg: {
-    height: 145,
-    resizeMode: "contain",
-  },
+  
   MarginBottom: {
     padding: 10,
   },
   SignInText: {
-    fontWeight: 400,
+    fontWeight: "400",
     fontSize: 18,
     color: "#171717",
   },
@@ -176,7 +128,7 @@ const styles = StyleSheet.create({
   },
   BlueLink: {
     color: "#39658c",
-    fontWeight: 500,
+    fontWeight: "500",
   },
   PaddingBottom: {
     paddingLeft: 10,
